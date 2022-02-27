@@ -7,7 +7,7 @@ from numpy import argmin
 
 def calculate_mean_anniversary(days_of_interest: list):
     """Calculates the mean anniversary based on the geometric center
-    for a list of dates of the current year given in the format yyyy-mm-dd.
+    for a list of dates of the current year given as string in the format yyyy-mm-dd.
     """
 
     # Get current year
